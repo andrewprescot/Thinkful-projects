@@ -11,11 +11,12 @@ from keras.regularizers import l2
 ###############################################################################
 '''
 
-BASIC VGG Blocks (1,2, or 3 CNN, 1 dense, 1 output)
+BASIC VGG-11 implementation
+4 separate CNN layers: (128)(256)(512)(512)
 
-Simple CNN wirtten to simply evaluate effect of increasing number of CNN blocks
 
-We can also specify 
+We can also specify  learning rate, decay, momentum, activation functions at cnn, 
+dense, out layers, dropout, and batchnorm
 
 '''
 
